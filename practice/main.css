@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    min-width: 876px;
+}
+header{
+
+    background-color: #52471b;
+    text-align: center;
+    }
+    header>img{
+
+        position: relative;
+        top: 52px;
+
+
+    }
+        header>h1{
+            padding-top: 50px;
+            padding-bottom: 30px;
+            background-color:#f8ffb0;
+            color: #87752d;
+            font-size: 15px;
+            margin-top: 0px;        /*fixed the gaps*/
+            margin-bottom: 0px;
+        }
+
+        header>nav{
+            border-top: solid #52471b;
+            border-bottom: solid #52471b;
+            background-color: #87752d;
+             /*display*/
+            font-style: bold;
+            padding-top: 0px;
+            padding-bottom: 0px;
+           
+        }
+        ul>li{
+            display: inline-block;
+            padding-right: 20px;
+            font-style: bold;
+        }
+/*navigation*/
+               nav a:link{
+                color: #f6f7a9;
+                text-decoration: none;
+                }
+
+                nav a:visited{
+                    color: #f6f7a9;
+                }
+
+                nav a:hover{
+                        color: #f9d300;
+                    }
+                nav a:active{
+                        color: #ffffff;
+                    }
+
+/*-----------main----------*/
+
+main{
+    border:solid #f6f7a9;
+    text-align: center;
+    background-color:#f8ffb0;
+    
+
+    }
+    
+figure>img{
+    height: 200px;
+    width:auto;
+}
+figure{
+            border: solid #87752d;
+            background: #87752d;
+            height: 230px;
+            width: 130px;
+            display: inline-block;
+            margin: 0px;
+            margin-top: 50px;
+        border-radius: 5px;
+    
+}
+
+
+figcaption{
+    color: #f8ffb0;
+            font-weight: bolder;
+    
+}
+
+    blockquote{
+        color: #52471b;
+        font-style: italic;
+        font-weight: bolder;
+        position: relative;
+        margin:40px 180px;
+       
+    }
+
+/*-----------footer----------*/
+
+footer{
+    
+    border-top: solid #87752d;
+    font-style: bold;
+    background-color: #52471b;
+    text-align: center;
+    color: #f2cc10;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: bold;
+    }
+footer p {
+    margin: 0px;
+}
