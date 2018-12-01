@@ -1,0 +1,60 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+
+/*--------------navigation-------------------*/
+
+
+.navigation {overflow: hidden; text-align: center; font-size: 1.5rem; }
+.navigation li { display: inline-block; margin-left: .25rem;}
+.navigation a {	display: block;	color: #A52637;	padding: .5rem;	text-align: center;	text-decoration: none;}
+.navigation a:hover {	color: #000; background-color: #FFC1C7;	}
+    
+
+
+/*---------------- Contact Us CSS------------------------*/
+
+
+form#contactForm{
+    margin: 1em 3%;
+    text-align: left;
+}
+
+fieldset {
+    background-color: ;
+    border-radius: .8em;
+    margin: 1.5em 0 ;
+    border: #00C4B7 solid 1px;
+    
+}
+
+
+label{
+    display: block;
+    margin: .4em;
+
+}
+
+label span{
+    display: block;
+    font-size: .8em;
+    color: #A52637;
+    padding-top: .6em;
+    padding-bottom: .2em;
+}
+
+input.submitBtn {
+   
+    color: #A52637;
+    border: solid 1px #111;
+    border-radius: 7px;
+    width: 30%;
+    margin: .5em 0;
+    font-size: 1em;
+    padding: .6em;
+    background: #00C4B7;
+    box-shadow: 4px 4px 10px #666;
+}
