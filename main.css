@@ -1,19 +1,64 @@
 body{
     font-family: 'Rajdhani', sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 8rem;
+    min-height: 100%;
 }
 
 
+h1 {
+    color: #A52637; 
+    text-shadow: 4px 4px 8px #A52637;
+}
+ h2,h3,h4{
+        color: #00C4B7; 
+    text-shadow: 3px 3px 11px #FFC1C7;
+}
+main{
+  margin: 0 auto;
+  padding-top: 1em;
+  max-width: 640px;
+  width: 94%;
 
 
+}
+
+/*--------------Logo-------------------*/
+
+main>img{
+    height: 60px;
+    position:absolute;
+    top: 5em;
+}
 /*--------------navigation-------------------*/
 
 
-.navigation {overflow: hidden; text-align: center; font-size: 1.5rem; }
+.navigation {overflow: hidden; text-align: center; font-size: 1.2rem; }
 .navigation li { display: inline-block; margin-left: .25rem;}
 .navigation a {	display: block;	color: #A52637;	padding: .5rem;	text-align: center;	text-decoration: none;}
-.navigation a:hover {	color: #000; background-color: #FFC1C7;	}
+.navigation a:hover {	color: #00C4B7; 	}
     
 
+
+/*---------------------------- Footer description ----------------------*/
+.footer_Design {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      padding: 0.2rem;
+      text-align: center;
+      font-size: 0.85em;
+}
+
+
+/*--------------------- Footer nav ------------------*/
+
+.footer_Navigation {overflow: hidden; text-align: center; font-size: 1.05rem; }
+.footer_Navigation li { display: inline-block; margin-left: .25rem;}
+.footer_Navigation a {	display: block;	color: #A52637;	padding: .5rem;	text-align: center;	text-decoration: none;}
+.footer_Navigation a:hover {	color: #00C4B7; 	}
 
 /*---------------- Contact Us CSS------------------------*/
 
@@ -24,13 +69,10 @@ form#contactForm{
 }
 
 fieldset {
-    background-color: ;
     border-radius: .8em;
     margin: 1.5em 0 ;
     border: #00C4B7 solid 1px;
-    
 }
-
 
 label{
     display: block;
@@ -56,5 +98,24 @@ input.submitBtn {
     font-size: 1em;
     padding: .6em;
     background: #00C4B7;
-    box-shadow: 4px 4px 10px #666;
+    box-shadow: 2px 2px 10px #FFC1C7;
+}
+
+.textbox{
+    width: 20em;
+    border: 1px solid #C8C8C8;
+    margin-left: 0.5em;
+}
+
+/*---------------- Contact Us CSS------------------------*/
+
+.banner{
+    height: 140px ;
+    width: auto;
+    
+}
+
+.banner>img{
+    height: 100%;
+    border-radius: 5px 30px;
 }
