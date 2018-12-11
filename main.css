@@ -165,3 +165,24 @@ input.submitBtn {
     width: 150px;
 
 }
+
+/*-----------------Main Figure-------------*/
+
+.main_fig{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.main_fig > div {
+  text-align: center;
+  padding: 0.1em;
+  font-size: 1em;
+  color: #00C4B7;
+}
+
+.main_fig img{
+    width: 140px;
+
+}

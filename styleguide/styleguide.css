@@ -26,7 +26,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Nanum Brush Script', cursive;
+	font-family: 'Rajdhani', sans-serif;
 }
 
 
@@ -53,7 +53,7 @@ overflow: hidden; text-align: center; font-size: 1.5rem;
 	/* other styles */
 }
 #mainnav a:hover{
-	color: #fff; background-color: #FFC1C7;
+	color:  #00C4B7; 
 	/* other styles */
 }
 #mainnav a:active{
@@ -148,16 +148,16 @@ ol li{
 /* Non-Navigational Link Styles */
 /* This is for all default links on your page */
 a:link{
-
+color: #A52637;
 }
 a:visited{
-
+color: #A52637;
 }
 a:hover{
-
+color: #00C4B7;
 }
 a:active{
-
+color: #00C4B7;
 }
 
 /* This is for secondary link styles (possibly in your footer, etc) */
