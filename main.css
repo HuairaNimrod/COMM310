@@ -127,7 +127,7 @@ input.submitBtn {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 5px;
   padding: 5px;
 }
@@ -142,4 +142,26 @@ input.submitBtn {
 .grid-container img{
     width: 80px;
     border-radius: 50%;
+}
+
+
+/*---------------- Gallery ------------------------*/
+
+.grid-square {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding: 5px;
+}
+
+.grid-square > div {
+  text-align: center;
+  padding: 0.1em;
+  font-size: 1em;
+  color: #00C4B7;
+}
+
+.grid-square img{
+    width: 150px;
+
 }
