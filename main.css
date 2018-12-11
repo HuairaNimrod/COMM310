@@ -24,6 +24,9 @@ main{
 
 }
 
+.title_center{
+    text-align: center;
+}
 /*--------------Logo-------------------*/
 
 main>img{
@@ -125,8 +128,8 @@ input.submitBtn {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+  grid-gap: 5px;
+  padding: 5px;
 }
 
 .grid-container > div {
@@ -137,6 +140,6 @@ input.submitBtn {
 }
 
 .grid-container img{
-    width: 70px;
+    width: 80px;
     border-radius: 50%;
 }
