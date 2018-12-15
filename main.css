@@ -11,7 +11,7 @@ h1 {
     color: #A52637; 
     text-shadow: 4px 4px 8px #A52637;
 }
- h2,h3,h4{
+ h2,h3,h4,h5{
         color: #00C4B7; 
     text-shadow: 3px 3px 11px #FFC1C7;
 }
@@ -127,7 +127,7 @@ input.submitBtn {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto ;
   grid-gap: 5px;
   padding: 5px;
 }
@@ -143,7 +143,45 @@ input.submitBtn {
     width: 80px;
     border-radius: 50%;
 }
+/*-----------change icons when screen turns small------------*/
+@media only screen and (max-width: 600px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto ;
+      grid-gap: 5px;
+      padding: 5px;
 
+    }
+.grid-container img{
+    width: 100px;
+
+}
+}
+                /*-----------change icons------------*/
+                /*------------big images shop----------*/
+.grid-big {
+  display: grid;
+  grid-template-columns:auto auto;
+  grid-gap: 5px;
+  padding: 5px;
+
+ 
+}
+
+.grid-big-item {
+  text-align: center;
+  padding: 1px;
+  font-size: 1em;
+  color: #00C4B7;
+    border:solid 2px  #FFC1C7;
+    border-radius: 20px 5px;
+     
+}
+
+.grid-big img{
+    width: 120px;
+
+}
 
 /*---------------- Gallery ------------------------*/
 
@@ -164,6 +202,19 @@ input.submitBtn {
 .grid-square img{
     width: 150px;
 
+}
+@media only screen and (max-width: 600px) {
+        .grid-square {
+      display: grid;
+      grid-template-columns: auto auto ;
+      grid-gap: 5px;
+      padding: 5px;
+
+    }
+.grid-square img{
+    width: 100px;
+
+}
 }
 
 /*-----------------Main Figure-------------*/
@@ -186,3 +237,19 @@ input.submitBtn {
     width: 140px;
 
 }
+
+.img_design{
+    border-radius: 10px;
+}
+
+/*change the text color to red*/
+.love{
+    color: #A52637;
+    
+}
+
+.copy_font{
+    font-family:sans-serif;
+    font-size: 0.2em;
+}
+
